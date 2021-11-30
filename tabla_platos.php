@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma-rtl.min.css">
 </head>
 <body>
+
 <?php 
 $platos = [
     [
@@ -28,7 +29,6 @@ $platos = [
         "ingredientes" => ["Un teléfono y el número del Telepi más cercano.", "Paciencia"]
     ]
 ];
-
 ?>
 
 <table class="table is-bordered is-hoverable">

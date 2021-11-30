@@ -11,6 +11,7 @@
     <?php
         include_once 'header.php';
     ?>
+    <main class="content">
 
     <table class="table is-bordered is-hoverable has-text-centered">
 
@@ -42,6 +43,8 @@
         </tbody>
 
     </table>
+    
+    </main>
 
     <?php
         include_once 'footer.php';
