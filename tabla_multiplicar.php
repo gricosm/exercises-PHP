@@ -7,16 +7,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
+
     <table>
         <tbody>
             <?php
                 echo '<tr>';
                 for ($i = 1; $i < 11; $i++){
-                    for ($j = 1; $j < 11; $j++){
-                    echo "<td>$i * $j</td>";
-                    }
+                    echo '<tr>';
+                    echo '<td>';
+                        for ($j = 1; $j < 11; $j++){
+                        echo "<td>"; 
+                        echo $i * $j;
+                        echo "</td>";
+                        }
+                    echo '<td>';
+                    echo '</tr>';
                 }
-                echo '</tr>';
+                
             ?>
         </tbody>
     </table>
