@@ -1,3 +1,4 @@
+<?php declare(strict_types=1); ?>
 <!DOCTYPE html>
 <head>
 <title>Prueba de PHP / Include - Require</title>
@@ -8,12 +9,12 @@
 
 <body>
 
-    <?php include_once 'header.php'; ?>
+    <?php require_once 'header.php'; ?>
 
     <main class="content">
         <?php 
-            ini_set('display_errors', 1);
-            ini_set('display_startup_errors', 1);
+            ini_set('display_errors', "1");
+            ini_set('display_startup_errors', "1");
             error_reporting(E_ALL);
             include_once 'tabla.php'; 
         ?>
