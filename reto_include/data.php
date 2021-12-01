@@ -4,7 +4,15 @@ $platos = [
         "titulo" => "Macarrones",
         "comensales" => 2,
         "tipo" => "Primero",
-        "ingredientes" => ["Pasta", "Tomate", "Ajo", "Cebolla"]
+        "ingredientes" => [
+            [
+                "cantidad" => "200gr",
+                "nombre" => "Pasta"
+            ], 
+            [
+                "cantidad" => "100gr",
+                "nombre" => "Tomate"
+            ], ]
     ],
     [
         "titulo" => "Migas",
